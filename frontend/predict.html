@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Amaranthus | Predict</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<nav id="nav"></nav>
+	<main class="container">
+		<h1>Predict Disease</h1>
+		<form id="predict-form" class="card">
+			<label>Select image
+				<input id="image" type="file" accept="image/*" required />
+			</label>
+			<button class="btn" type="submit">Predict</button>
+		</form>
+		<div id="preview" class="card hidden">
+			<img id="preview-img" alt="preview" />
+		</div>
+		<section id="results" class="card hidden">
+			<h2>Results</h2>
+			<ul id="predictions"></ul>
+		</section>
+	</main>
+	<script src="shared.js"></script>
+	<script src="predict.js"></script>
+</body>
+</html>
+
+

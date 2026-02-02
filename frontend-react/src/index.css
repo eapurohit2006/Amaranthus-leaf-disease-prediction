@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #F8F9FA;
+  color: #212529;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* LeafScan Color Palette */
+:root {
+  --primary-green: #28A745;
+  --light-green: #4CAF50;
+  --lighter-green: #E8F5E9;
+  --dark-gray: #212529;
+  --medium-gray: #6C757D;
+  --light-gray: #F8F9FA;
+  --border-gray: #DEE2E6;
+  --white: #FFFFFF;
+  --red: #DC3545;
+  --red-light: #F8D7DA;
+}
